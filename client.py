@@ -521,7 +521,7 @@ class Window(QtWidgets.QMainWindow):
         self.register(PublicFileWindow(), "publicFile")
         self.register(ReceiveFileWindow(), "receiveFile")
 
-        self.goto("search")
+        self.goto("main")
 
     def register(self, widget, name):
         self.m_pages[name] = widget
